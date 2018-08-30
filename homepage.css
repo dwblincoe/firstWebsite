@@ -1,0 +1,68 @@
+.container{
+    display:grid;
+    grid-template-areas: 
+    "a a"
+    "b b"
+    "c d"
+    "c d"
+    "e e";
+    grid-template-columns:30% 70%;
+    grid-template-columns
+}
+.logo{
+    grid-area: a;
+    height:100px;
+    text-align:right;
+}
+
+.header{
+    grid-area: b;
+    background-image:url("images/holdingFlag.jpg");
+    background-size:100%;
+}
+
+.article{
+    grid-area: c;
+    background: green;
+    height:700px;
+}
+
+.mainContent{
+   grid-area: d;
+   background:yellow;
+   height:700px;
+}
+
+.footer{
+    grid-area: e;
+    background:black;
+    height:100px;
+}
+
+h1{
+    font-family:'abel', sans-serif;
+    font-size:50px;
+
+}
+
+h2{
+    font-family:'abel', sans-serif;
+    font-size: 200px;
+    color:white;
+}
+
+.navBar{
+    margin-top:30px;
+}
+
+a{
+    font-family:'abel', sans-serif;
+    font-size: 30px;
+    color:white;
+    text-decoration:none;
+    padding:25px;
+}
+
+a:hover{
+    text-decoration:overline;
+}

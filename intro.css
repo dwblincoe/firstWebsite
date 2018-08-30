@@ -1,0 +1,40 @@
+body{
+    background-image: url("images/tornFlag.jpg");
+    background-size: 100%;
+}
+
+h1{
+    color:white;
+    font-family:'abel', sans-serif;
+    font-size:180px;
+    text-align:center;
+}
+
+.linkContainer{
+    display:flex;
+}
+
+a{
+    color:black;
+    font-family: 'abel', sans-serif;
+    font-size:25px;
+    text-decoration:none;
+    border:2px solid white;
+    border-radius:10px;
+    padding:10px;
+    background:white;
+    text-align:center;
+    margin:auto;
+    margin-top: 150px;
+}
+
+a:hover{
+    background:transparent;
+    color:white;
+}
+
+.mainTitle{
+    width:850px;
+    margin: 0 auto;
+    margin-top:200px;
+}
