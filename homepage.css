@@ -3,16 +3,18 @@
     grid-template-areas: 
     "a a"
     "b b"
-    "c d"
-    "c d"
+    "d c"
+    "d c"
     "e e";
-    grid-template-columns:30% 70%;
+    grid-template-columns:80% 20%;
     grid-template-columns
 }
 .logo{
+    display:flex;
     grid-area: a;
-    height:100px;
-    text-align:right;
+}
+.name{
+    float: right;
 }
 
 .header{
@@ -23,13 +25,13 @@
 
 .article{
     grid-area: c;
-    background: green;
-    height:700px;
+    border: 2px solid black;
+    padding:20px;
+    font-family:'abel', sans-serif;
 }
 
 .mainContent{
    grid-area: d;
-   background:yellow;
    height:700px;
 }
 
@@ -49,6 +51,14 @@ h2{
     font-family:'abel', sans-serif;
     font-size: 200px;
     color:white;
+}
+
+.image{
+    width: 100%;
+}
+
+h3{
+    text-align:center;
 }
 
 .navBar{
