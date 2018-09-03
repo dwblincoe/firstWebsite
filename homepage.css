@@ -22,12 +22,43 @@
 
 .logo{
     grid-area: a;
+    display:flex;
 }
 
 .name{
-    display:flex;
+    display:inline-block;
     margin-top:1vw;
 }
+
+#searchBox{
+    display:flex;
+    margin-left:950px;
+    background: rgba(150, 134, 136, 0.9);
+    height:40px;
+    border-radius:10px;
+    justify-content:center;
+    align-content: center;
+}
+
+#search{
+    display:inline-block;
+    margin:10px auto;
+}
+
+.inLine{
+    display:inline-block;
+    padding:10px;
+}
+
+.inLineSearch{
+    display:inline-block;
+}
+
+.icon{
+    color:white;
+    text-decoration: none;
+}
+
 
 .header{
     grid-area: b;
