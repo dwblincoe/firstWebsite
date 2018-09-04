@@ -32,12 +32,11 @@
 
 #searchBox{
     display:flex;
-    margin-left:950px;
+    margin-left:50vw;
     background: rgba(150, 134, 136, 0.9);
     height:40px;
     border-radius:10px;
     justify-content:center;
-    align-content: center;
 }
 
 #search{
@@ -76,7 +75,7 @@
 
 .navA{
     font-family:'abel', sans-serif;
-    font-size: 1.5vw;
+    font-size: 1.25vw;
     color:white;
     text-decoration:none;
     padding:2vw;
